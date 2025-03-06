@@ -89,7 +89,7 @@ header nav .hnname {
 
 main {
   background-color: #f6f6ef;
-  padding: 10px 0;
+  padding: .125rem;
 }
 
 ol {
@@ -99,10 +99,9 @@ ol {
 
 
 main ol li {
-  padding: 10px 10px;
-  margin-bottom: 5px;
+  padding: 0;
   align-items: flex-start;
-  margin-left: 30px;
+  margin-left: 1.8em;
 }
 
 .job-item .news-item-content {
@@ -114,7 +113,6 @@ ol li::marker {
   text-align: right;
   display: block;
   flex-shrink: 0;
-  font-size: 1rem;
   color: #828282;
   margin-top: 3px;
 }
