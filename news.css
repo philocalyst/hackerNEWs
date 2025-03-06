@@ -128,7 +128,7 @@ ol li::marker {
 .vote-arrow {
   width: 10px;
   height: 10px;
-  background: url('grayarrow.gif') no-repeat;
+  background: url('triangle.svg') no-repeat;
   margin: 0 auto;
   cursor: pointer;
 }
