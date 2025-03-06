@@ -46,37 +46,38 @@ header>a {
   height: 18px;
   border: 1px solid white;
   display: block;
-  vertical-align: top;
 }
-
 
 header>nav {
   line-height: 12pt;
-  height: 10px;
+  height: .625rem;
+  display: flex;
+  align-items: center;
+  gap: .35em;
   margin-right: auto;
 }
 
 header nav a {
-  color: #fff;
-  padding: 0 8px;
-  font-size: 0.8rem;
-  vertical-align: top;
+  color: black;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
   display: inline-block;
 }
 
 header nav .hnname {
   font-weight: bold;
-  font-size: 1rem;
+  margin-right: .4em;
+  margin-left: .5em;
 }
 
 .header-login {
-  padding-right: 8px;
+  padding-right: .25em;
 }
 
 .header-login .login-link {
-  color: #fff;
+  color: black;
   font-size: 0.8rem;
-  vertical-align: top;
   display: inline-block;
 }
 
