@@ -15,6 +15,15 @@ This project expands on a repository I created previously that served as a proof
 
 This isn't meant to be a feature-rich alternative to Hacker News — those already exist in the form of wrappers and mobile apps. Instead, this project utilizes modern web standards to create a dramatically simpler, flexible, and universal front page for the site we all love.
 
+## Current Issues
+
+- No arrow upvote (Wanted to know more about intended implementation)
+- Some odd whitespace text leafs that make the tree a bit messier than necessary
+- Unessecary divs and generic types that could be removed with better styling
+- More ARIA naming
+- SVH isn't supported on all modern browsers (fallsback to vh)
+- No jump to content tab element
+
 ## Examples
 
 ### Font Size Comparisons
@@ -56,3 +65,4 @@ The original also uses many more than double the amount of generic types and has
 The repository includes the following assets:
 - SVG files for icons (`triangle.svg`, `y18.svg`)
 - HTML and CSS files for the prototype (`index.html`, `news.css`)
+
