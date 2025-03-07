@@ -1,6 +1,7 @@
 html {
   background-color: white;
 }
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #f6f6ef;
@@ -129,7 +130,6 @@ header nav .hnname {
 
 
 main {
-  background-color: #f6f6ef;
   padding: .125rem;
 }
 
@@ -188,8 +188,13 @@ ol li::marker {
   font-size: .8333333333rem;
 }
 
-.site-bit {
+.site-bit,
+footer .search {
   color: #828282;
+}
+
+.site-bit,
+.search {
   font-size: 0.8rem;
 }
 
@@ -217,16 +222,6 @@ ol li::marker {
 .comment a:link,
 .comment a:visited {
   text-decoration: underline;
-}
-
-.noshow {
-  display: none;
-}
-
-.nosee {
-  visibility: hidden;
-  pointer-events: none;
-  cursor: default
 }
 
 .c00,
@@ -395,10 +390,14 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 /* mobile device */
-@media only screen and (min-width : 300px) and (max-width : 750px) {
+@media only screen and (max-width : 750px) {
   #hnmain {
     width: 100%;
     min-width: 0;
+  }
+
+  header nav {
+    padding: .3em 0;
   }
 
   body {
@@ -437,88 +436,8 @@ only screen and (min-device-pixel-ratio: 2) {
     vertical-align: top;
   }
 
-  img[src='s.gif'][width='40'] {
-    width: 12px;
-  }
-
-  img[src='s.gif'][width='80'] {
-    width: 24px;
-  }
-
-  img[src='s.gif'][width='120'] {
-    width: 36px;
-  }
-
-  img[src='s.gif'][width='160'] {
-    width: 48px;
-  }
-
-  img[src='s.gif'][width='200'] {
-    width: 60px;
-  }
-
-  img[src='s.gif'][width='240'] {
-    width: 72px;
-  }
-
-  img[src='s.gif'][width='280'] {
-    width: 84px;
-  }
-
-  img[src='s.gif'][width='320'] {
-    width: 96px;
-  }
-
-  img[src='s.gif'][width='360'] {
-    width: 108px;
-  }
-
-  img[src='s.gif'][width='400'] {
-    width: 120px;
-  }
-
-  img[src='s.gif'][width='440'] {
-    width: 132px;
-  }
-
-  img[src='s.gif'][width='480'] {
-    width: 144px;
-  }
-
-  img[src='s.gif'][width='520'] {
-    width: 156px;
-  }
-
-  img[src='s.gif'][width='560'] {
-    width: 168px;
-  }
-
-  img[src='s.gif'][width='600'] {
-    width: 180px;
-  }
-
-  img[src='s.gif'][width='640'] {
-    width: 192px;
-  }
-
-  img[src='s.gif'][width='680'] {
-    width: 204px;
-  }
-
-  img[src='s.gif'][width='720'] {
-    width: 216px;
-  }
-
-  img[src='s.gif'][width='760'] {
-    width: 228px;
-  }
-
-  img[src='s.gif'][width='800'] {
-    width: 240px;
-  }
-
-  img[src='s.gif'][width='840'] {
-    width: 252px;
+  header .header-logo {
+    width: 1.35em
   }
 
   .title {
@@ -569,77 +488,3 @@ only screen and (min-device-pixel-ratio: 2) {
   max-width: 1215px;
   overflow-wrap: anywhere;
 }
-
-
-
-@media only screen and (min-width : 300px) and (max-width : 389px) {
-  .comment {
-    max-width: 270px;
-    overflow: hidden
-  }
-}
-
-@media only screen and (min-width : 390px) and (max-width : 509px) {
-  .comment {
-    max-width: 350px;
-    overflow: hidden
-  }
-}
-
-@media only screen and (min-width : 510px) and (max-width : 599px) {
-  .comment {
-    max-width: 460px;
-    overflow: hidden
-  }
-}
-
-@media only screen and (min-width : 600px) and (max-width : 689px) {
-  .comment {
-    max-width: 540px;
-    overflow: hidden
-  }
-}
-
-@media only screen and (min-width : 690px) and (max-width : 809px) {
-  .comment {
-    max-width: 620px;
-    overflow: hidden
-  }
-}
-
-@media only screen and (min-width : 810px) and (max-width : 899px) {
-  .comment {
-    max-width: 730px;
-    overflow: hidden
-  }
-}
-
-@media only screen and (min-width : 900px) and (max-width : 1079px) {
-  .comment {
-    max-width: 810px;
-    overflow: hidden
-  }
-}
-
-@media only screen and (min-width : 1080px) and (max-width : 1169px) {
-  .comment {
-    max-width: 970px;
-    overflow: hidden
-  }
-}
-
-@media only screen and (min-width : 1170px) and (max-width : 1259px) {
-  .comment {
-    max-width: 1050px;
-    overflow: hidden
-  }
-}
-
-@media only screen and (min-width : 1260px) and (max-width : 1349px) {
-  .comment {
-    max-width: 1130px;
-    overflow: hidden
-  }
-}
-
-\ No newline at end of file
