@@ -12,6 +12,42 @@ body {
   padding: 0;
 }
 
+hr {
+  height: 2px;
+  color: #333;
+  background-color: #ff6600;
+  border: none;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .search {
+  padding-bottom: 1em;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: .5833333333rem;
+  gap: .25em;
+}
+
+footer nav a {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
 a {
   color: #007bff;
   text-decoration: none;
