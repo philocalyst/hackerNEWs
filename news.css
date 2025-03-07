@@ -74,6 +74,7 @@ header {
   justify-content: center;
   padding: .125rem;
   margin: 0 auto;
+  margin-bottom: .45rem;
 }
 
 header>a {
@@ -135,6 +136,9 @@ main {
 
 ol {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .2em;
   margin: 0;
 }
 
