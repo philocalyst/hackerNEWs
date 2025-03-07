@@ -12,17 +12,20 @@
 
 <body>
 	<header>
-		<a href="https://news.ycombinator.com" class="header-logo-link">
+		<a href="https://news.ycombinator.com" ; class="header-logo-link" aria-label="Hacker News Home">
 			<img src="y18.svg" alt="Hacker News Logo" class="header-logo">
 		</a>
-		<nav>
+		<nav aria-label="Main Navigation">
 			<div class="hnname">
 				<a href="news">Hacker News</a>
 			</div>
 			<div class="categories">
-				<a href="newest">new</a>| <a href="front">past</a>|
-				<a href="newcomments">comments</a> | <a href="ask">ask</a> |
-				<a href="show">show</a> | <a href="jobs">jobs</a> |
+				<a href="newest">new</a><span aria-hidden="true"> | </span><a href="front">past</a><span aria-hidden="true"> |
+				</span>
+				<a href="newcomments">comments</a><span aria-hidden="true"> | </span><a href="ask">ask</a><span
+					aria-hidden="true"> | </span>
+				<a href="show">show</a><span aria-hidden="true"> | </span><a href="jobs">jobs</a><span aria-hidden="true"> |
+				</span>
 				<a href="submit" rel="nofollow">submit</a>
 			</div>
 		</nav>
@@ -31,19 +34,15 @@
 		</div>
 	</header>
 	<main>
-		<ol>
+		<ol aria-label="News Stories">
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270835&amp;how=up&amp;goto=news" aria-label="Upvote Tailscale Is Pretty Useful">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" class="story-link">A student's guide to
+						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" ; class="story-link">A student's guide to
 							startups</a>
-						<span class="site-bit">
-							(<a href="from?site=6nok.org" class="site-link"><span class="site-str">paulgraham.org</span></a>)
+						<span class="site-bit" aria-label="from paulgraham.org">
+							<span aria-hidden="true">(</span><a href="from?site=6nok.org" class="site-link"><span
+									class="site-str">paulgraham.org</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -52,26 +51,22 @@
 						<a href="user?id=marban" class="hnuser">phyllis</a>
 						<a href="item?id=43270835" class="age">Oct 9, 2006</a>
 						<span id="unv_43270835"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270835&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270835">48&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43271177&amp;how=up&amp;goto=news"
-						aria-label='Upvote NCSC, GCHQ, UK Gov&#x27;t expunge advice to "use Apple encryption"'>
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://alecmuffett.com/article/112522" class="story-link">Google, Youtube acquisition announcement
+						<a href="https://alecmuffett.com/article/112522" ; class="story-link">Google, Youtube acquisition
+							announcement
 							could come tonight</a>
-						<span class="site-bit">
-							(<a href="from?site=alecmuffett.com" class="site-link"><span class="site-str">techcrunch.com</span></a>)
+						<span class="site-bit" aria-label="from techcrunch.com">
+							<span aria-hidden="true">(</span><a href="from?site=alecmuffett.com" class="site-link"><span
+									class="site-str">techcrunch.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -82,25 +77,21 @@
 							<a href="item?id=43271177">Oct 9, 2006</a>
 						</span>
 						<span id="unv_43271177"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43271177&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43271177">5&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43266453&amp;how=up&amp;goto=news" aria-label="Upvote Apple M3 Ultra">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
 						<a href="https://www.apple.com/newsroom/2025/03/apple-reveals-m3-ultra-taking-apple-silicon-to-a-new-extreme/"
-							class="story-link">Feld: Question Regarding NDAs</a>
-						<span class="site-bit">
-							(<a href="from?site=apple.com" class="site-link"><span class="site-str">feld.com</span></a>)
+							; class="story-link">Feld: Question Regarding NDAs</a>
+						<span class="site-bit" aria-label="from feld.com">
+							<span aria-hidden="true">(</span><a href="from?site=apple.com" class="site-link"><span
+									class="site-str">feld.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -111,24 +102,20 @@
 							<a href="item?id=43266453">Oct 9, 2006</a>
 						</span>
 						<span id="unv_43266453"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43266453&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43266453">639&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270687&amp;how=up&amp;goto=news" aria-label="Upvote Skynet Won and Destroyed Humanity">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://dmathieu.com/en/opinions/skynet-won/" class="story-link">LikeBetter Featured by BBC</a>
-						<span class="site-bit">
-							(<a href="from?site=dmathieu.com" class="site-link"><span class="site-str">bbc.co.uk</span></a>)
+						<a href="https://dmathieu.com/en/opinions/skynet-won/" ; class="story-link">LikeBetter Featured by BBC</a>
+						<span class="site-bit" aria-label="from bbc.co.uk">
+							<span aria-hidden="true">(</span><a href="from?site=dmathieu.com" class="site-link"><span
+									class="site-str">bbc.co.uk</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -139,26 +126,21 @@
 							<a href="item?id=43270687">Oct 9, 2006</a>
 						</span>
 						<span id="unv_43270687"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270687&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270687">26&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270843&amp;how=up&amp;goto=news"
-						aria-label="Upvote QwQ-32B: Embracing the Power of Reinforcement Learning">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://qwenlm.github.io/blog/qwq-32b/" class="story-link">The Hardest Lessons for Startups to
+						<a href="https://qwenlm.github.io/blog/qwq-32b/" ; class="story-link">The Hardest Lessons for Startups to
 							Learn</a>
-						<span class="site-bit">
-							(<a href="from?site=qwenlm.github.io" class="site-link"><span class="site-str">paulgraham.com</span></a>)
+						<span class="site-bit" aria-label="from paulgraham.com">
+							<span aria-hidden="true">(</span><a href="from?site=qwenlm.github.io" class="site-link"><span
+									class="site-str">paulgraham.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -169,27 +151,21 @@
 							<a href="item?id=43270843">Oct 9, 2006</a>
 						</span>
 						<span id="unv_43270843"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270843&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270843">5&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43268454&amp;how=up&amp;goto=news"
-						aria-label="Upvote My Beancount books are 95% automatic after 3 years (2024)">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://fangpenlin.com/posts/2024/12/30/my-beancount-books-are-95-percent-automatic/"
+						<a href="https://fangpenlin.com/posts/2024/12/30/my-beancount-books-are-95-percent-automatic/" ;
 							class="story-link">Woz Interview: the early days of Apple</a>
-						<span class="site-bit">
-							(<a href="from?site=fangpenlin.com" class="site-link"><span
-									class="site-str">foundersatwork.com</span></a>)
+						<span class="site-bit" aria-label="from foundersatwork.com">
+							<span aria-hidden="true">(</span><a href="from?site=fangpenlin.com" class="site-link"><span
+									class="site-str">foundersatwork.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -200,25 +176,20 @@
 							<a href="item?id=43268454">4 hours ago</a>
 						</span>
 						<span id="unv_43268454"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43268454&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43268454">55&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43264847&amp;how=up&amp;goto=news"
-						aria-label="Upvote Richard Sutton and Andrew Barto Win 2024 Turing Award">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://awards.acm.org/about/2024-turing" class="story-link">Wired: The Desktop is Dead</a>
-						<span class="site-bit">
-							(<a href="from?site=acm.org" class="site-link"><span class="site-str">wired.com</span></a>)
+						<a href="https://awards.acm.org/about/2024-turing" ; class="story-link">Wired: The Desktop is Dead</a>
+						<span class="site-bit" aria-label="from wired.com">
+							<span aria-hidden="true">(</span><a href="from?site=acm.org" class="site-link"><span
+									class="site-str">wired.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -229,26 +200,22 @@
 							<a href="item?id=43264847">Oct 9, 2006</a>
 						</span>
 						<span id="unv_43264847"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43264847&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43264847">85&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43267095&amp;how=up&amp;goto=news"
-						aria-label="Upvote Things we&#x27;ve learned about building products">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://newsletter.posthog.com/p/50-things-weve-learned-about-building" class="story-link">Salaries
+						<a href="https://newsletter.posthog.com/p/50-things-weve-learned-about-building" ;
+							class="story-link">Salaries
 							at VC-backed companies</a>
-						<span class="site-bit">
-							(<a href="from?site=posthog.com" class="site-link"><span class="site-str">avc.blogs.com</span></a>)
+						<span class="site-bit" aria-label="from avc.blogs.com">
+							<span aria-hidden="true">(</span><a href="from?site=posthog.com" class="site-link"><span
+									class="site-str">avc.blogs.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -259,26 +226,21 @@
 							<a href="item?id=43267095">Oct 9, 2006</a>
 						</span>
 						<span id="unv_43267095"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43267095&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43267095">37&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270079&amp;how=up&amp;goto=news"
-						aria-label="Upvote Apple takes UK to court over &#x27;backdoor&#x27; order">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://www.theregister.com/2025/03/05/apple_reportedly_ipt_complaint/"
+						<a href="https://www.theregister.com/2025/03/05/apple_reportedly_ipt_complaint/" ;
 							class="story-link">weekendr: social network for the weekend</a>
-						<span class="site-bit">
-							(<a href="from?site=theregister.com" class="site-link"><span class="site-str">weekendr.com</span></a>)
+						<span class="site-bit" aria-label="from weekendr.com">
+							<span aria-hidden="true">(</span><a href="from?site=theregister.com" class="site-link"><span
+									class="site-str">weekendr.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -289,24 +251,20 @@
 							<a href="item?id=43270079">Oct 9, 2006</a>
 						</span>
 						<span id="unv_43270079"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270079&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270079">35&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270835&amp;how=up&amp;goto=news" aria-label="Upvote Tailscale Is Pretty Useful">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" class="story-link">NYC Developer Dilemma</a>
-						<span class="site-bit">
-							(<a href="from?site=6nok.org" class="site-link"><span class="site-str">avc.blogs.com</span></a>)
+						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" ; class="story-link">NYC Developer Dilemma</a>
+						<span class="site-bit" aria-label="from avc.blogs.com">
+							<span aria-hidden="true">(</span><a href="from?site=6nok.org" class="site-link"><span
+									class="site-str">avc.blogs.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -315,25 +273,22 @@
 						<a href="user?id=marban" class="hnuser">onebeerdave</a>
 						<a href="item?id=43270835" class="age">Oct 9, 2006</a>
 						<span id="unv_43270835"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270835&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270835">48&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270835&amp;how=up&amp;goto=news" aria-label="Upvote Tailscale Is Pretty Useful">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" class="story-link">Small is Beautiful building a
+						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" ; class="story-link">Small is Beautiful building
+							a
 							Successful Company with Less Capital</a>
-						<span class="site-bit">
-							(<a href="from?site=6nok.org" class="site-link"><span class="site-str">zdnet.com</span></a>)
+						<span class="site-bit" aria-label="from zdnet.com">
+							<span aria-hidden="true">(</span><a href="from?site=6nok.org" class="site-link"><span
+									class="site-str">zdnet.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -342,25 +297,21 @@
 						<a href="user?id=marban" class="hnuser">pg</a>
 						<a href="item?id=43270835" class="age">Oct 9, 2006</a>
 						<span id="unv_43270835"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270835&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270835">48&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270835&amp;how=up&amp;goto=news" aria-label="Upvote Tailscale Is Pretty Useful">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" class="story-link">Business Intelligence the
+						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" ; class="story-link">Business Intelligence the
 							Inkling Way: cool prediction markets software</a>
-						<span class="site-bit">
-							(<a href="from?site=6nok.org" class="site-link"><span class="site-str">360techblog.com</span></a>)
+						<span class="site-bit" aria-label="from 360techblog.com">
+							<span aria-hidden="true">(</span><a href="from?site=6nok.org" class="site-link"><span
+									class="site-str">360techblog.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -369,25 +320,21 @@
 						<a href="user?id=marban" class="hnuser">perler</a>
 						<a href="item?id=43270835" class="age">Oct 9, 2006</a>
 						<span id="unv_43270835"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270835&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270835">48&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270835&amp;how=up&amp;goto=news" aria-label="Upvote Tailscale Is Pretty Useful">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" class="story-link">Participation Inequality:
+						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" ; class="story-link">Participation Inequality:
 							Encouraging More Users to Contribuite</a>
-						<span class="site-bit">
-							(<a href="from?site=6nok.org" class="site-link"><span class="site-str">useit.com</span></a>)
+						<span class="site-bit" aria-label="from useit.com">
+							<span aria-hidden="true">(</span><a href="from?site=6nok.org" class="site-link"><span
+									class="site-str">useit.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -396,25 +343,21 @@
 						<a href="user?id=marban" class="hnuser">frobnicate</a>
 						<a href="item?id=43270835" class="age">Oct 9, 2006</a>
 						<span id="unv_43270835"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270835&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270835">48&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270835&amp;how=up&amp;goto=news" aria-label="Upvote Tailscale Is Pretty Useful">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" class="story-link">Sevin Rosen Unfunds -
+						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" ; class="story-link">Sevin Rosen Unfunds -
 							why?</a>
-						<span class="site-bit">
-							(<a href="from?site=6nok.org" class="site-link"><span class="site-str">gigaom.com</span></a>)
+						<span class="site-bit" aria-label="from gigaom.com">
+							<span aria-hidden="true">(</span><a href="from?site=6nok.org" class="site-link"><span
+									class="site-str">gigaom.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -423,25 +366,21 @@
 						<a href="user?id=marban" class="hnuser">phyllis</a>
 						<a href="item?id=43270835" class="age">Oct 9, 2006</a>
 						<span id="unv_43270835"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270835&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270835">48&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270835&amp;how=up&amp;goto=news" aria-label="Upvote Tailscale Is Pretty Useful">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" class="story-link">Voddler Raises $2.2M For
+						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" ; class="story-link">Voddler Raises $2.2M For
 							Virtual Cable TV</a>
-						<span class="site-bit">
-							(<a href="from?site=6nok.org" class="site-link"><span class="site-str">thealarmclock.com</span></a>)
+						<span class="site-bit" aria-label="from thealarmclock.com">
+							<span aria-hidden="true">(</span><a href="from?site=6nok.org" class="site-link"><span
+									class="site-str">thealarmclock.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -450,25 +389,21 @@
 						<a href="user?id=marban" class="hnuser">farmer</a>
 						<a href="item?id=43270835" class="age">Oct 9, 2006</a>
 						<span id="unv_43270835"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270835&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270835">48&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270835&amp;how=up&amp;goto=news" aria-label="Upvote Tailscale Is Pretty Useful">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" class="story-link">PhotoShow: Broadcast Photos
+						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" ; class="story-link">PhotoShow: Broadcast Photos
 							to Cable TV</a>
-						<span class="site-bit">
-							(<a href="from?site=6nok.org" class="site-link"><span class="site-str">techcrunch.com</span></a>)
+						<span class="site-bit" aria-label="from techcrunch.com">
+							<span aria-hidden="true">(</span><a href="from?site=6nok.org" class="site-link"><span
+									class="site-str">techcrunch.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -477,25 +412,22 @@
 						<a href="user?id=marban" class="hnuser">frobnicate</a>
 						<a href="item?id=43270835" class="age">Oct 9, 2006</a>
 						<span id="unv_43270835"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270835&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270835">48&nbsp;comments</a>
 					</div>
 				</div>
 			</li>
 			<li class="news-item">
-				<div class="vote-links">
-					<a href="vote?id=43270835&amp;how=up&amp;goto=news" aria-label="Upvote Tailscale Is Pretty Useful">
-						<div class="vote-arrow" title="upvote" aria-hidden="true"></div>
-					</a>
-				</div>
 				<div class="news-item-content">
 					<div class="news-title">
-						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" class="story-link">Will Silicon Light Illuminate
+						<a href="https://blog.6nok.org/tailscale-is-pretty-useful/" ; class="story-link">Will Silicon Light
+							Illuminate
 							the Future?</a>
-						<span class="site-bit">
-							(<a href="from?site=6nok.org" class="site-link"><span class="site-str">technologyreview.com</span></a>)
+						<span class="site-bit" aria-label="from technologyreview.com">
+							<span aria-hidden="true">(</span><a href="from?site=6nok.org" class="site-link"><span
+									class="site-str">technologyreview.com</span></a><span aria-hidden="true">)</span>
 						</span>
 					</div>
 					<div class="news-subtext">
@@ -504,9 +436,9 @@
 						<a href="user?id=marban" class="hnuser">pg</a>
 						<a href="item?id=43270835" class="age">Oct 9, 2006</a>
 						<span id="unv_43270835"></span>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="hide?id=43270835&amp;goto=news">hide</a>
-						|
+						<span aria-hidden="true">|</span>
 						<a href="item?id=43270835">48&nbsp;comments</a>
 					</div>
 				</div>
@@ -515,21 +447,21 @@
 	</main>
 	<hr>
 	<footer>
-		<nav>
+		<nav aria-label="Footer Navigation">
 			<a href="https://news.ycombinator.com/newsguidelines.html">
-				Guidelines</a>|
-			<a href="https://news.ycombinator.com/newsfaq.html"> FAQ </a> |
-			<a href="https://news.ycombinator.com/lists"> Lists </a> |
-			<a href="https://github.com/HackerNews/API">API </a> |
-			<a href="https://news.ycombinator.com/security.html">Security</a>
-			|
-			<a href="https://www.ycombinator.com/legal/">Legal</a> |
-			<a href="https://www.ycombinator.com/apply/"> Apply to YC</a> |
+				Guidelines</a><span aria-hidden="true"> | </span>
+			<a href="https://news.ycombinator.com/newsfaq.html"> FAQ </a><span aria-hidden="true"> | </span>
+			<a href="https://news.ycombinator.com/lists"> Lists </a><span aria-hidden="true"> | </span>
+			<a href="https://github.com/HackerNews/API">API </a><span aria-hidden="true"> | </span>
+			<a href="https://news.ycombinator.com/security.html">Security</a><span aria-hidden="true"> | </span>
+			<a href="https://www.ycombinator.com/legal/">Legal</a><span aria-hidden="true"> | </span>
+			<a href="https://www.ycombinator.com/apply/"> Apply to YC</a><span aria-hidden="true"> | </span>
 			<a href="mailto:hn@ycombinator.com"> Contact </a>
 		</nav>
 		<div class="search">
-			Search: <input type="text" name="q" size="17" autocorrect="off" spellcheck="false" autocapitalize="none"
-				autocomplete="off">
+			<label for="search-input">Search: </label>
+			<input type="text" id="search-input" name="q" size="17" autocorrect="off" spellcheck="false" autocapitalize="none"
+				autocomplete="off" aria-label="Search Hacker News">
 		</div>
 	</footer>
 </body>
