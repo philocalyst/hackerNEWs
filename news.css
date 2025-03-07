@@ -1,6 +1,9 @@
+html {
+  background-color: white;
+}
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: white;
+  background-color: #f6f6ef;
   color: #333;
   font-size: .8333333333rem;
   line-height: 1.4;
@@ -600,3 +603,5 @@ only screen and (min-device-pixel-ratio: 2) {
     overflow: hidden
   }
 }
+
+\ No newline at end of file
