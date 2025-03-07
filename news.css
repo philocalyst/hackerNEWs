@@ -81,33 +81,35 @@ header>a {
 }
 
 .header-logo {
-  width: 18px;
-  height: 18px;
+  width: 1.2em;
   border: 1px solid white;
   display: block;
 }
 
 header>nav {
   line-height: 12pt;
-  height: .625rem;
   display: flex;
+  margin-left: .6em;
+  flex-wrap: wrap;
   align-items: center;
-  gap: .35em;
   margin-right: auto;
 }
 
 header nav a {
   color: black;
-  vertical-align: middle;
   margin: 0;
   padding: 0;
-  display: inline-block;
+}
+
+header nav .categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35em;
 }
 
 header nav .hnname {
   font-weight: bold;
   margin-right: .4em;
-  margin-left: .5em;
 }
 
 .header-login {
