@@ -7,7 +7,7 @@ body {
   color: #333;
   font-size: .8333333333rem;
   line-height: 1.4;
-  margin: .75vh auto 0 auto;
+  margin: .75svh auto 0 auto;
   width: clamp(796px, 85%, 1200px);
   padding: 0;
 }
